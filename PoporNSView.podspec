@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PoporNSView'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = 'popor 常用 控件.'
   
   s.homepage         = 'https://github.com/popor/PoporNSView'

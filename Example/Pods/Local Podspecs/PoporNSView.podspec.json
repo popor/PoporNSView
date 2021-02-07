@@ -1,6 +1,6 @@
 {
   "name": "PoporNSView",
-  "version": "1.0",
+  "version": "1.0.1",
   "summary": "popor 常用 控件.",
   "homepage": "https://github.com/popor/PoporNSView",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/popor/PoporNSView.git",
-    "tag": "1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "osx": "10.13"
