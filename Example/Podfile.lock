@@ -45,29 +45,29 @@ PODS:
   - PoporFoundation/PFeedbackGenerator (1.24)
   - PoporFoundation/Prefix (1.24):
     - PoporFoundation/Os
-  - PoporNSView (1.0.2):
+  - PoporNSView (1.0.3):
     - Masonry
-    - PoporNSView/AcceptDragFileView (= 1.0.2)
-    - PoporNSView/AppKeepFront (= 1.0.2)
-    - PoporNSView/Font (= 1.0.2)
-    - PoporNSView/iToast (= 1.0.2)
-    - PoporNSView/NSBundle (= 1.0.2)
-    - PoporNSView/NSTableView (= 1.0.2)
-    - PoporNSView/NSTask (= 1.0.2)
-  - PoporNSView/AcceptDragFileView (1.0.2):
+    - PoporNSView/AcceptDragFileView (= 1.0.3)
+    - PoporNSView/AppKeepFront (= 1.0.3)
+    - PoporNSView/Font (= 1.0.3)
+    - PoporNSView/iToast (= 1.0.3)
+    - PoporNSView/NSBundle (= 1.0.3)
+    - PoporNSView/NSTableView (= 1.0.3)
+    - PoporNSView/NSTask (= 1.0.3)
+  - PoporNSView/AcceptDragFileView (1.0.3):
     - Masonry
-  - PoporNSView/AppKeepFront (1.0.2):
+  - PoporNSView/AppKeepFront (1.0.3):
     - Masonry
-  - PoporNSView/Font (1.0.2):
+  - PoporNSView/Font (1.0.3):
     - Masonry
-  - PoporNSView/iToast (1.0.2):
+  - PoporNSView/iToast (1.0.3):
     - Masonry
-  - PoporNSView/NSBundle (1.0.2):
+  - PoporNSView/NSBundle (1.0.3):
     - Masonry
-  - PoporNSView/NSTableView (1.0.2):
+  - PoporNSView/NSTableView (1.0.3):
     - Masonry
     - PoporFoundation/NSObject
-  - PoporNSView/NSTask (1.0.2):
+  - PoporNSView/NSTask (1.0.3):
     - Masonry
 
 DEPENDENCIES:
@@ -86,7 +86,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PoporFoundation: 0861e1064f0afb658c1254537e0447123f135ac3
-  PoporNSView: 53412aa2b83e611eaf917da8a1e8a921d21dffcd
+  PoporNSView: 5e93065059100244f0a495266f740e9ec0c08e96
 
 PODFILE CHECKSUM: 39d09b83ea65297a3ca9d1e4b0fe7ec4ee2d9beb
 

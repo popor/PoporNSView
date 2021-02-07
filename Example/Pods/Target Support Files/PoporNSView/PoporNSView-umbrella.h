@@ -15,6 +15,7 @@
 #import "AppKeepFront.h"
 #import "NSFont+pSize.h"
 #import "NSBundle+Tool.h"
+#import "NSTableView+pResponse.h"
 #import "NSTask+shell.h"
 #import "iToast.h"
 
