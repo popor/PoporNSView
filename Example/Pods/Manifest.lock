@@ -1,0 +1,93 @@
+PODS:
+  - Masonry (1.1.0)
+  - PoporFoundation (1.24):
+    - PoporFoundation/KVO (= 1.24)
+    - PoporFoundation/NSArray (= 1.24)
+    - PoporFoundation/NSAssistant (= 1.24)
+    - PoporFoundation/NSData (= 1.24)
+    - PoporFoundation/NSDate (= 1.24)
+    - PoporFoundation/NSDecimalNumber (= 1.24)
+    - PoporFoundation/NSDictionary (= 1.24)
+    - PoporFoundation/NSFileManager (= 1.24)
+    - PoporFoundation/NSObject (= 1.24)
+    - PoporFoundation/NSString (= 1.24)
+    - PoporFoundation/NSTimer (= 1.24)
+    - PoporFoundation/NSURL (= 1.24)
+    - PoporFoundation/Os (= 1.24)
+    - PoporFoundation/PFeedbackGenerator (= 1.24)
+    - PoporFoundation/Prefix (= 1.24)
+  - PoporFoundation/KVO (1.24)
+  - PoporFoundation/NSArray (1.24):
+    - PoporFoundation/NSObject
+    - PoporFoundation/Prefix
+  - PoporFoundation/NSAssistant (1.24):
+    - PoporFoundation/Os
+    - PoporFoundation/Prefix
+  - PoporFoundation/NSData (1.24)
+  - PoporFoundation/NSDate (1.24):
+    - PoporFoundation/NSString
+  - PoporFoundation/NSDecimalNumber (1.24):
+    - PoporFoundation/NSObject
+  - PoporFoundation/NSDictionary (1.24):
+    - PoporFoundation/NSObject
+    - PoporFoundation/Prefix
+  - PoporFoundation/NSFileManager (1.24)
+  - PoporFoundation/NSObject (1.24)
+  - PoporFoundation/NSString (1.24):
+    - PoporFoundation/NSObject
+    - PoporFoundation/Os
+    - PoporFoundation/Prefix
+  - PoporFoundation/NSTimer (1.24)
+  - PoporFoundation/NSURL (1.24):
+    - PoporFoundation/NSObject
+    - PoporFoundation/NSString
+  - PoporFoundation/Os (1.24)
+  - PoporFoundation/PFeedbackGenerator (1.24)
+  - PoporFoundation/Prefix (1.24):
+    - PoporFoundation/Os
+  - PoporNSView (1.0):
+    - Masonry
+    - PoporNSView/AcceptDragFileView (= 1.0)
+    - PoporNSView/AppKeepFront (= 1.0)
+    - PoporNSView/Font (= 1.0)
+    - PoporNSView/iToast (= 1.0)
+    - PoporNSView/NSBundle (= 1.0)
+    - PoporNSView/NSTask (= 1.0)
+    - PoporNSView/NSView (= 1.0)
+  - PoporNSView/AcceptDragFileView (1.0):
+    - Masonry
+  - PoporNSView/AppKeepFront (1.0):
+    - Masonry
+  - PoporNSView/Font (1.0):
+    - Masonry
+  - PoporNSView/iToast (1.0):
+    - Masonry
+  - PoporNSView/NSBundle (1.0):
+    - Masonry
+  - PoporNSView/NSTask (1.0):
+    - Masonry
+  - PoporNSView/NSView (1.0):
+    - Masonry
+    - PoporFoundation/NSObject
+
+DEPENDENCIES:
+  - PoporFoundation
+  - PoporNSView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - PoporFoundation
+
+EXTERNAL SOURCES:
+  PoporNSView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PoporFoundation: 0861e1064f0afb658c1254537e0447123f135ac3
+  PoporNSView: 46fcaa5b8eca487075e4ae5879242291d9e47231
+
+PODFILE CHECKSUM: 39d09b83ea65297a3ca9d1e4b0fe7ec4ee2d9beb
+
+COCOAPODS: 1.10.1
