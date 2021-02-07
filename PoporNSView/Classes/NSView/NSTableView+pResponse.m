@@ -1,23 +1,23 @@
 //
-//  NSView+pResponse.m
+//  NSTableView+pResponse.m
 //  PoporNSView
 //
 //  Created by popor on 2021/2/6.
 //  Copyright © 2021 apple. All rights reserved.
 //
 
-#import "NSView+pResponse.h"
+#import "NSTableView+pResponse.h"
 
 #import <PoporFoundation/NSObject+pSwizzling.h>
 
-@implementation NSView (pResponse)
+@implementation NSTableView (pResponse)
 
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         
-        [objc_getClass("NSView") methodSwizzlingWithOriginalSelector:@selector(resignFirstResponder) bySwizzledSelector:@selector(pResignFirstResponder)];
-        [objc_getClass("NSView") methodSwizzlingWithOriginalSelector:@selector(becomeFirstResponder) bySwizzledSelector:@selector(pBecomeFirstResponder)];
+        [objc_getClass("NSTableView") methodSwizzlingWithOriginalSelector:@selector(resignFirstResponder) bySwizzledSelector:@selector(pResignFirstResponder)];
+        [objc_getClass("NSTableView") methodSwizzlingWithOriginalSelector:@selector(becomeFirstResponder) bySwizzledSelector:@selector(pBecomeFirstResponder)];
     });
 }
 

@@ -16,7 +16,6 @@
 #import "NSFont+pSize.h"
 #import "NSBundle+Tool.h"
 #import "NSTask+shell.h"
-#import "NSView+pResponse.h"
 #import "iToast.h"
 
 FOUNDATION_EXPORT double PoporNSViewVersionNumber;

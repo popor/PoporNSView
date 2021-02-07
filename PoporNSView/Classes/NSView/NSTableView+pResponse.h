@@ -1,5 +1,5 @@
 //
-//  NSView+pResponse.h
+//  NSTableView+pResponse.h
 //  PoporNSView
 //
 //  Created by popor on 2021/2/6.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSView (pResponse)
+@interface NSTableView (pResponse)
 
 @property (nonatomic        ) BOOL firstResponse;
 

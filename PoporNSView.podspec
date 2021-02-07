@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PoporNSView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'popor 常用 控件.'
   
   s.homepage         = 'https://github.com/popor/PoporNSView'
@@ -41,10 +41,10 @@ Pod::Spec.new do |s|
     ss.source_files = 'PoporNSView/Classes/NSBundle/*.{h,m}'
   end
   
-  s.subspec 'NSView' do |ss|
+  s.subspec 'NSTableView' do |ss|
     ss.osx.dependency  'PoporFoundation/NSObject'
     
-    ss.source_files = 'PoporNSView/Classes/NSView/*.{h,m}'
+    ss.source_files = 'PoporNSView/Classes/NSTableView/*.{h,m}'
   end
   
   s.subspec 'NSTask' do |ss|
